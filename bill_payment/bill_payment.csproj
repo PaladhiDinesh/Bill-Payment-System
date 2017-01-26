@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08335BDD-6BA1-48F2-B700-3A4DAE6B8496}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bill_payment</RootNamespace>
+    <AssemblyName>bill_payment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About_Us_After_Login.aspx" />
+    <Content Include="about_us_before_login.aspx" />
+    <Content Include="admin_home.aspx" />
+    <Content Include="admin_login.aspx" />
+    <Content Include="bill_payment_form.aspx" />
+    <Content Include="contact_us.aspx" />
+    <Content Include="contact_us_before_login.aspx" />
+    <Content Include="customer_registration_form.aspx" />
+    <Content Include="customer_updation_form.aspx" />
+    <Content Include="Errorpage.aspx" />
+    <Content Include="Errorpagecss.css" />
+    <Content Include="error_login_page.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\about us 1.jpg" />
+    <Content Include="Images\About us 2.jpg" />
+    <Content Include="Images\banner.jpg" />
+    <Content Include="Images\bill pay 6.jpg" />
+    <Content Include="Images\bill pay 8.jpg" />
+    <Content Include="Images\bill pay images 3.jpg" />
+    <Content Include="Images\bill pay.jpg" />
+    <Content Include="Images\bill pay7.jpg" />
+    <Content Include="Images\coffee-spill-main.jpg" />
+    <Content Include="Images\contact us final 1.jpg" />
+    <Content Include="Images\contact us final.jpg" />
+    <Content Include="Images\cpp_banner1.gif" />
+    <Content Include="Images\e-payment-%281%29.jpg" />
+    <Content Include="Images\error.jpg" />
+    <Content Include="Images\images %281%29.jpg" />
+    <Content Include="Images\images %282%29.jpg" />
+    <Content Include="Images\images.jpg" />
+    <Content Include="Images\contactus.png" />
+    <Content Include="Images\pathasv.png" />
+    <Content Include="Images\pay bills 3.jpg" />
+    <Content Include="Images\pay bills1.jpg" />
+    <Content Include="Images\register2.jpg" />
+    <Content Include="Images\register3.jpg" />
+    <Content Include="Images\register3.png" />
+    <Content Include="Images\register5.jpg" />
+    <Content Include="Images\update 4.jpg" />
+    <Content Include="Images\update5.jpg" />
+    <Content Include="jquery-1.11.2.min.js" />
+    <Content Include="JScript1.js" />
+    <Content Include="NewAboutUSBeforeLogin.aspx" />
+    <Content Include="vendor_registration_form.aspx" />
+    <Content Include="vendor_updation_form.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="start_screen.aspx" />
+    <Content Include="about_us.aspx" />
+    <Content Include="ContactUs_AfterLogin.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About_Us_After_Login.aspx.cs">
+      <DependentUpon>About_Us_After_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About_Us_After_Login.aspx.designer.cs">
+      <DependentUpon>About_Us_After_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about_us_before_login.aspx.cs">
+      <DependentUpon>about_us_before_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about_us_before_login.aspx.designer.cs">
+      <DependentUpon>about_us_before_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_home.aspx.cs">
+      <DependentUpon>admin_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_home.aspx.designer.cs">
+      <DependentUpon>admin_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_login.aspx.cs">
+      <DependentUpon>admin_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_login.aspx.designer.cs">
+      <DependentUpon>admin_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bill_payment_form.aspx.cs">
+      <DependentUpon>bill_payment_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bill_payment_form.aspx.designer.cs">
+      <DependentUpon>bill_payment_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bps.Master.cs">
+      <DependentUpon>bps.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bps.Master.designer.cs">
+      <DependentUpon>bps.Master</DependentUpon>
+    </Compile>
+    <Compile Include="contact_us.aspx.cs">
+      <DependentUpon>contact_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact_us.aspx.designer.cs">
+      <DependentUpon>contact_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact_us_before_login.aspx.cs">
+      <DependentUpon>contact_us_before_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact_us_before_login.aspx.designer.cs">
+      <DependentUpon>contact_us_before_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer_registration_form.aspx.cs">
+      <DependentUpon>customer_registration_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer_registration_form.aspx.designer.cs">
+      <DependentUpon>customer_registration_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer_updation_form.aspx.cs">
+      <DependentUpon>customer_updation_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer_updation_form.aspx.designer.cs">
+      <DependentUpon>customer_updation_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Errorpage.aspx.cs">
+      <DependentUpon>Errorpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errorpage.aspx.designer.cs">
+      <DependentUpon>Errorpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error_login_page.aspx.cs">
+      <DependentUpon>error_login_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error_login_page.aspx.designer.cs">
+      <DependentUpon>error_login_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionClass.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="master_before_login.Master.cs">
+      <DependentUpon>master_before_login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master_before_login.Master.designer.cs">
+      <DependentUpon>master_before_login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NewAboutUSBeforeLogin.aspx.cs">
+      <DependentUpon>NewAboutUSBeforeLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewAboutUSBeforeLogin.aspx.designer.cs">
+      <DependentUpon>NewAboutUSBeforeLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="start_screen.aspx.cs">
+      <DependentUpon>start_screen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="start_screen.aspx.designer.cs">
+      <DependentUpon>start_screen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vendor_registration_form.aspx.cs">
+      <DependentUpon>vendor_registration_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vendor_registration_form.aspx.designer.cs">
+      <DependentUpon>vendor_registration_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vendor_updation_form.aspx.cs">
+      <DependentUpon>vendor_updation_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vendor_updation_form.aspx.designer.cs">
+      <DependentUpon>vendor_updation_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about_us.aspx.cs">
+      <DependentUpon>about_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about_us.aspx.designer.cs">
+      <DependentUpon>about_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>ContactUs_AfterLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>ContactUs_AfterLogin.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bps.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\bill_payment_BAL\bill_payment_BAL.csproj">
+      <Project>{D2FDA33B-C8DF-4E03-AFE8-6A8B14464551}</Project>
+      <Name>bill_payment_BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\bill_payment_ENTITY\bill_payment_ENTITY.csproj">
+      <Project>{42D1C9D7-90AA-43B2-8AC7-C544F096DDAA}</Project>
+      <Name>bill_payment_ENTITY</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="master_before_login.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59767</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

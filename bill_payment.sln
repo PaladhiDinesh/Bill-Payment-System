@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bill_payment", "bill_payment\bill_payment.csproj", "{08335BDD-6BA1-48F2-B700-3A4DAE6B8496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bill_payment_BAL", "bill_payment_BAL\bill_payment_BAL.csproj", "{D2FDA33B-C8DF-4E03-AFE8-6A8B14464551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bill_payment_DAL", "bill_payment_DAL\bill_payment_DAL.csproj", "{48E34C89-D903-406B-AA84-55A5CFFD2CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bill_payment_ENTITY", "bill_payment_ENTITY\bill_payment_ENTITY.csproj", "{42D1C9D7-90AA-43B2-8AC7-C544F096DDAA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ctsinsrivtfs:8080/tfs/chnsri
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = bill_payment\\bill_payment.csproj
+		SccProjectName1 = bill_payment
+		SccLocalPath1 = bill_payment
+		SccProjectUniqueName2 = bill_payment_BAL\\bill_payment_BAL.csproj
+		SccProjectName2 = bill_payment_BAL
+		SccLocalPath2 = bill_payment_BAL
+		SccProjectUniqueName3 = bill_payment_DAL\\bill_payment_DAL.csproj
+		SccProjectName3 = bill_payment_DAL
+		SccLocalPath3 = bill_payment_DAL
+		SccProjectUniqueName4 = bill_payment_ENTITY\\bill_payment_ENTITY.csproj
+		SccProjectName4 = bill_payment_ENTITY
+		SccLocalPath4 = bill_payment_ENTITY
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08335BDD-6BA1-48F2-B700-3A4DAE6B8496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08335BDD-6BA1-48F2-B700-3A4DAE6B8496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08335BDD-6BA1-48F2-B700-3A4DAE6B8496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08335BDD-6BA1-48F2-B700-3A4DAE6B8496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FDA33B-C8DF-4E03-AFE8-6A8B14464551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FDA33B-C8DF-4E03-AFE8-6A8B14464551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FDA33B-C8DF-4E03-AFE8-6A8B14464551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FDA33B-C8DF-4E03-AFE8-6A8B14464551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E34C89-D903-406B-AA84-55A5CFFD2CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E34C89-D903-406B-AA84-55A5CFFD2CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E34C89-D903-406B-AA84-55A5CFFD2CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E34C89-D903-406B-AA84-55A5CFFD2CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D1C9D7-90AA-43B2-8AC7-C544F096DDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D1C9D7-90AA-43B2-8AC7-C544F096DDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D1C9D7-90AA-43B2-8AC7-C544F096DDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D1C9D7-90AA-43B2-8AC7-C544F096DDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
